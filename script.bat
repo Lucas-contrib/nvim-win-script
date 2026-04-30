@@ -7,7 +7,6 @@ echo :colorscheme industry > "C:\Users\Navegador\AppData\Local\nvim\init.vim"
 echo :set tabstop=2 >> "C:\Users\Navegador\AppData\Local\nvim\init.vim"
 echo :set shiftwidth=2 >> "C:\Users\Navegador\AppData\Local\nvim\init.vim"
 echo :set nowrap >> "C:\Users\Navegador\AppData\Local\nvim\init.vim"
-pause
 curl -LO "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.24/AutoHotkey_2.0.24_setup.exe"
 mkdir "C:\Users\Navegador\Desktop\temp\ahk"
 echo "Instalando autohotkey en temp"
