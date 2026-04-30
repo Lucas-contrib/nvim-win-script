@@ -15,4 +15,4 @@ cd %userprofile%\nvim-win-script
 move capslock-rebind.ahk "C:\Users\Navegador\Desktop\temp"
 C:\Users\Navegador\Desktop\temp\capslock-rebind.ahk
 cd ..
-rmdir /s /q nvim-win-script
+
