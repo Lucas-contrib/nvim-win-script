@@ -12,8 +12,7 @@ curl -LO "https://github.com/AutoHotkey/AutoHotkey/releases/download/v2.0.24/Aut
 mkdir "C:\Users\Navegador\Desktop\temp\ahk"
 echo "Instalando autohotkey en temp"
 AutoHotkey_2.0.24_setup.exe /silent /to "C:\Users\Navegador\Desktop\temp\ahk"
-capslock-rebind.ahk
+cd %userprofile%\nvim-win-script
 move capslock-rebind.ahk "C:\Users\Navegador\Desktop\temp"
 C:\Users\Navegador\Desktop\temp\capslock-rebind.ahk
-cd ..
 rmdir /s /q nvim-win-script
