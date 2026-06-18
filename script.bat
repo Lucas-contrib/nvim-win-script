@@ -3,7 +3,7 @@ cd "C:\Users\Navegador\Desktop\temp"
 curl -LO "https://github.com/neovim/neovim/releases/download/v0.12.2/nvim-win64.zip"
 tar -xf nvim-win64.zip
 mkdir "C:\Users\Navegador\AppData\Local\nvim"
-echo :colorscheme industry > "C:\Users\Navegador\AppData\Local\nvim\init.vim"
+echo :colorscheme torte > "C:\Users\Navegador\AppData\Local\nvim\init.vim"
 echo :set tabstop=2 >> "C:\Users\Navegador\AppData\Local\nvim\init.vim"
 echo :set shiftwidth=2 >> "C:\Users\Navegador\AppData\Local\nvim\init.vim"
 echo :set nowrap >> "C:\Users\Navegador\AppData\Local\nvim\init.vim"
